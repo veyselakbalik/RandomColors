@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		738E596A2960288900E3361D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738E59692960288900E3361D /* AppDelegate.swift */; };
 		738E596C2960288900E3361D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738E596B2960288900E3361D /* SceneDelegate.swift */; };
-		738E596E2960288900E3361D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738E596D2960288900E3361D /* ViewController.swift */; };
 		738E59712960288900E3361D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738E596F2960288900E3361D /* Main.storyboard */; };
 		738E59732960288B00E3361D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738E59722960288B00E3361D /* Assets.xcassets */; };
 		738E59762960288B00E3361D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738E59742960288B00E3361D /* LaunchScreen.storyboard */; };
+		738E597E2960296600E3361D /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738E597D2960296600E3361D /* ColorsTableVC.swift */; };
+		738E598029602E4100E3361D /* ColorsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738E597F29602E4100E3361D /* ColorsDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		738E59662960288900E3361D /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		738E59692960288900E3361D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		738E596B2960288900E3361D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		738E596D2960288900E3361D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		738E59702960288900E3361D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		738E59722960288B00E3361D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		738E59752960288B00E3361D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		738E59772960288B00E3361D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738E597D2960296600E3361D /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
+		738E597F29602E4100E3361D /* ColorsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				738E59692960288900E3361D /* AppDelegate.swift */,
 				738E596B2960288900E3361D /* SceneDelegate.swift */,
-				738E596D2960288900E3361D /* ViewController.swift */,
+				738E597D2960296600E3361D /* ColorsTableVC.swift */,
+				738E597F29602E4100E3361D /* ColorsDetailsVC.swift */,
 				738E596F2960288900E3361D /* Main.storyboard */,
 				738E59722960288B00E3361D /* Assets.xcassets */,
 				738E59742960288B00E3361D /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				738E596E2960288900E3361D /* ViewController.swift in Sources */,
+				738E597E2960296600E3361D /* ColorsTableVC.swift in Sources */,
+				738E598029602E4100E3361D /* ColorsDetailsVC.swift in Sources */,
 				738E596A2960288900E3361D /* AppDelegate.swift in Sources */,
 				738E596C2960288900E3361D /* SceneDelegate.swift in Sources */,
 			);
